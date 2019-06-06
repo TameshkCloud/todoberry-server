@@ -9,7 +9,7 @@ RestFul API.
 | Make sure your redis server is running and configuration inside `config/conf/redis.toml` is up-to-date with your server configuration.
 
 ```
- $ go get github.com/TameshkCloud/todoberry-server
+ $ go get -u github.com/TameshkCloud/todoberry-server
 ```
 
 Change your current directory to project directory located inside your $GOPATH
