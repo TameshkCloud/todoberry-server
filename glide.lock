@@ -1,0 +1,135 @@
+hash: 4633479395388b0e7f50a582767a5e7d917b50366e339ff830ac3e9b08969641
+updated: 2019-06-06T07:38:03.211082+04:30
+imports:
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/dgrijalva/jwt-go
+  version: 06ea1031745cb8b3dab3f6a236daf2b0aa468b7e
+- name: github.com/fsnotify/fsnotify
+  version: ccc981bf80385c528a65fbfdd49bf2d8da22aa23
+- name: github.com/gin-contrib/cors
+  version: 5f50d4fb4e0306dcacc6f8e9bea2dcee784dbbdf
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: b75d67cd51eb53c3c3a2fc406524c940021ffbda
+  subpackages:
+  - binding
+  - internal/json
+  - render
+- name: github.com/go-openapi/jsonpointer
+  version: ef5f0afec364d3b9396b7b77b43dbe26bf1f8004
+- name: github.com/go-openapi/jsonreference
+  version: 8483a886a90412cd6858df4ea3483dce9c8e35a3
+- name: github.com/go-openapi/spec
+  version: b2056d62a953adee01fed8ee65a046bd8f0419d5
+- name: github.com/go-openapi/swag
+  version: b3e2804c8535ee0d1b89320afd98474d5b8e9e3b
+- name: github.com/go-redis/redis
+  version: 75795aa4236dc7341eefac3bbe945e68c99ef9df
+- name: github.com/golang/protobuf
+  version: b5d812f8a3706043e23a9cd5babf2e5423744d30
+  subpackages:
+  - proto
+- name: github.com/hashicorp/hcl
+  version: 65a6292f0157eff210d03ed1bf6c59b190b8b906
+  subpackages:
+  - hcl/ast
+  - hcl/parser
+  - hcl/printer
+  - hcl/scanner
+  - hcl/strconv
+  - hcl/token
+  - json/parser
+  - json/scanner
+  - json/token
+- name: github.com/json-iterator/go
+  version: d05f387f50c0c406889b62cb5ec51c76a64d89ee
+- name: github.com/magiconair/properties
+  version: 7c38529aac7222391b7a2661365177a97e21b998
+- name: github.com/mailru/easyjson
+  version: 1ea4449da9834f4d333f1cc461c374aea217d249
+  subpackages:
+  - buffer
+  - jlexer
+  - jwriter
+- name: github.com/mattn/go-isatty
+  version: 3fb116b820352b7f0c281308a4d6250c22d94e27
+- name: github.com/mitchellh/mapstructure
+  version: 3536a929edddb9a5b34bd6861dc4a9647cb459fe
+- name: github.com/modern-go/concurrent
+  version: bacd9c7ef1dd9b15be4a9909b8ac7a4e313eec94
+- name: github.com/modern-go/reflect2
+  version: 94122c33edd36123c84d5368cfb2b69df93a0ec8
+- name: github.com/mongodb/mongo-go-driver
+  version: be02c9f9ce6b45d6e845492277a232afd6956cc3
+- name: github.com/pelletier/go-toml
+  version: 27c6b39a135b7dc87a14afb068809132fb7a9a8f
+- name: github.com/pkg/errors
+  version: 27936f6d90f9c8e1145f11ed52ffffbfdb9e0af7
+- name: github.com/PuerkitoBio/purell
+  version: 44968752391892e1b0d0b821ee79e9a85fa13049
+- name: github.com/PuerkitoBio/urlesc
+  version: de5bf2ad457846296e2031421a34e2568e304e35
+- name: github.com/spf13/afero
+  version: a5d6946387efe7d64d09dcba68cdd523dc1273a3
+  subpackages:
+  - mem
+- name: github.com/spf13/cast
+  version: 8c9545af88b134710ab1cd196795e7f2388358d7
+- name: github.com/spf13/cobra
+  version: 67fc4837d267bc9bfd6e47f77783fcc3dffc68de
+- name: github.com/spf13/jwalterweatherman
+  version: 94f6ae3ed3bceceafa716478c5fbf8d29ca601a1
+- name: github.com/spf13/pflag
+  version: 916c5bf2d89aff6fd3e10e7811337218dfa81cb5
+- name: github.com/spf13/viper
+  version: b5bf975e5823809fb22c7644d008757f78a4259e
+- name: github.com/swaggo/gin-swagger
+  version: ea4ea9de0c1dfbdab6e540e7723828953babdf4b
+  subpackages:
+  - swaggerFiles
+- name: github.com/swaggo/swag
+  version: a5009d0064c700c555082c4290d6eab9a923721b
+  subpackages:
+  - cmd/swag
+  - example/celler/httputil
+- name: github.com/ugorji/go
+  version: 772ced7fd4c2f6322c07537a9a93b68d74551fa6
+  subpackages:
+  - codec
+- name: go.uber.org/zap
+  version: 27376062155ad36be76b0f12cf1572a221d3a48c
+- name: golang.org/x/net
+  version: e147a9138326bc0e9d4e179541ffd8af41cff8a9
+  subpackages:
+  - context
+  - idna
+  - webdav
+  - webdav/internal/xml
+- name: golang.org/x/sys
+  version: 4d1cda033e0619309c606fc686de3adcf599539e
+  subpackages:
+  - unix
+- name: golang.org/x/text
+  version: 17bcc049122f272a32787ba38073ee47433023e9
+  subpackages:
+  - secure/bidirule
+  - transform
+  - unicode/bidi
+  - unicode/norm
+  - width
+- name: golang.org/x/tools
+  version: 2c3de6a5aea1814ceabe3c0b72be5223f0d8f600
+  subpackages:
+  - go/ast/astutil
+  - go/buildutil
+  - go/internal/cgo
+  - go/loader
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 51d6538a90f86fe93ac480b35f37b2be17fef232
+testImports: []

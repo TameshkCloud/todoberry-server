@@ -1,0 +1,12 @@
+cluster = true
+dsn = ["127.0.0.1:6379"]
+
+[timeouts]
+pool_timeout_in_seconds = 120
+idle_timeout_in_seconds = 600
+read_timeout_in_seconds = 120
+write_timeout_in_seconds = 60
+
+[connection_pool]
+initial_capacity = 1
+max_capacity = 2
