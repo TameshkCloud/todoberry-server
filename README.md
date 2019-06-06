@@ -6,14 +6,12 @@ RestFul API.
 
 ## Getting Start
 
-| Make sure your redis server is running and configuration inside `config/conf/redis.toml` is up-to-date with your server configuration.
-
 ```
  $ go get -u github.com/TameshkCloud/todoberry-server
 ```
 
-Change your current directory to project directory located inside your $GOPATH
-and start coding.
+> Make sure your redis server is running and configuration inside `config/conf/redis.toml` is up-to-date with your server configuration.
+
 
 ## Start Development
 
@@ -23,7 +21,6 @@ our project dependencies. Make sure Glide is installed on your system:
 ```bash
 $ curl https://glide.sh/get | sh
 ```
-
 
 Install dependencies:
 
@@ -36,10 +33,14 @@ of project. All this project vendors are **patched** version and stable.
 
 Check out `router/gin.go` to follow-up code execution
 
- - [ ] Documentation about project dependencies (English/Farsi)
-
 ## Generating Swagger documentations
-simply run:
+Install `gin-swagger`:
+
+```bash
+$ go get -u github.com/swaggo/swag/cmd/swag
+```
+
+and simply run:
 
 ```
 $ swag init
@@ -47,6 +48,19 @@ $ swag init
 
 now you can run `go run main.go`  and check [http://127.0.0.1:3000/swagger/index.html](http://127.0.0.1:3000/swagger/index.html) to see documentations generated automatically by swagger!
 
-
-
-
+there is two additional health checker apis you can check them here:
+ - [http://127.0.0.1:3000/health/welcome](http://127.0.0.1:3000/health/welcome)
+ - [http://127.0.0.1:3000/health/check/redis](http://127.0.0.1:3000/health/check/redis)
+ 
+ 
+ 
+## Todos
+ - [ ] MongoDB driver
+ - [ ] JWT Authentication
+ - [ ] Writing unit tests
+ - [ ] `etcd` integration with Viper
+ - [ ] command line tools using Cobra
+ - [ ] Dependency Documents (English/Persian)
+ 
+## Contact Us
+feel free to send your ideas in twitter for us: [@rezaseyf2013](https://twitter.com/rezaseyf2013)
