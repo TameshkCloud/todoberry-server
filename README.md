@@ -2,7 +2,7 @@
 TodoBerry is an opensource TodoList Application. 
 
 > NOTE!
-> This project is very early stages and is not yet usable as a desktop environment. However it is available for anyone to test, play with or contribute to.
+> This project is very early stages and is not yet usable as an application. However it is available for anyone to test, play with or contribute to.
 
 This Repository belongs to TodoBerry's Server side application that serves our
 RestFul API.
