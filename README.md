@@ -1,11 +1,12 @@
 # TodoBerry Server
-TodoBerry is an opensource TodoList Application. 
+TodoBerry is an opensource list-making and issue tracking application. 
 
 > NOTE!
+>
 > This project is very early stages and is not yet usable as an application. However it is available for anyone to test, play with or contribute to.
 
 This Repository belongs to TodoBerry's Server side application that serves our
-RestFul API.
+RESTFul API.
 
 
 
